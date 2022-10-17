@@ -1,0 +1,143 @@
+
+.Menu-Principal{
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
+    
+    
+}
+
+
+.Menu{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.Menu li{
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin-right: 180px;
+    background: white;
+}
+
+.Imagen{
+    margin-top: 20px;
+    width: 90px;
+    height: 70px;
+}
+
+
+.Imagen2{
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+body{
+    background-image: url("/img/fondo.jpg");
+}
+
+.Hero{
+    height: 100vh;
+    min-height: 500px;
+
+}
+
+
+
+.Hero-Container{
+
+    display: grid;
+    height: 100%;
+    grid-template-columns: 3fr 2fr;
+    place-items: center;
+    gap: 20px; 
+}
+
+.Hero-Title{
+
+    font-size: 50px;
+    margin: 50px;
+    color: white;
+
+}
+
+.Hero-Con{
+    font-size: 15px;
+    margin: 30px 50px;
+    color:white;
+}
+
+.Hero-btn {
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px;
+    font-size: 15px;
+
+}
+
+.Hero-btn2 {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px;
+    font-size: 15px;
+
+}
+
+
+.Title{
+    font-size: 20px;  
+}
+             
+
+.Instructor{
+    text-align: center;
+    border-bottom: 2px solid white;
+
+}
+
+.Contenido-Formulario{
+    margin-top: 60px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+h4{
+    color: white;
+    text-align: center;
+}
+
+.input{
+    width: 350px;
+}
+
+.input2{
+    width: 350px;   
+}
+
+.input3{
+    width: 350px;
+}
+
+.Main{
+    padding: 50px;
+    width: auto;
+    height: 600px;
+    text-align: center;
+    border: 1px solid white;
+    margin-bottom: 60px;
+}
+
+.Footer{
+    background: white;
+    padding: 25px;
+}
